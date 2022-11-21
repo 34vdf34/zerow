@@ -1,0 +1,4 @@
+config BR2_PACKAGE_EINK
+        bool "eink"
+        help 
+              waveshare eink code

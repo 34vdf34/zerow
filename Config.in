@@ -1,0 +1,8 @@
+source "$BR2_EXTERNAL_communit_PATH/package/dpinger/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/libnitrokey/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/nkmacsec/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/udptunnel/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/audioreceiver/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/audiostreamer/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/telemetrymsg/Config.in"
+source "$BR2_EXTERNAL_communit_PATH/package/eink/Config.in"

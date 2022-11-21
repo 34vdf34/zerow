@@ -1,0 +1,12 @@
+[Unit]
+Description=audiovolume
+After=multi-user.target
+Before=audiorecorder.service
+
+[Service]
+Type=simple
+WorkingDirectory=/tmp
+ExecStart=alsactl restore -f /opt/audiorecorder/amixer.store
+
+[Install]
+WantedBy=multi-user.target
